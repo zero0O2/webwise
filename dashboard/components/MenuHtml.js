@@ -1,8 +1,8 @@
 export default function MenuHtml() {
     return `
         <nav class="navbar navbar-expand-sm sidebar">
-            <div class="collapse navbar-collapse" id="nav-target">
-                <div>
+            <div style="width: 100%; height: 100%;" class="collapse navbar-collapse" id="nav-target">
+                <div style="width: 100%; height: 100%;">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-link nav-item">
                             <a href="./index.html" class="nav-link">
@@ -45,7 +45,7 @@ export default function MenuHtml() {
                                 <span class="text nav-text">Configurações</span>
                             </a>
                         </li>
-                        <li class="nav-link nav-item">
+                        <li onclick="Deslogar()" class="nav-link nav-item">
                             <a href="../index.html" class="nav-link" id="retorna">
                                 <i class="bx bx-log-out icon"></i>
                                 <span class="text nav-text">Retornar</span>
